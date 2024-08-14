@@ -1,3 +1,43 @@
 .center{
     text-align: center;
 }
+
+.areaNormal{
+    font-family: area-normal, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.areaBold{
+    font-family: area-normal, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.areaSemiBold{
+    font-family: area-normal, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#logo{
+    font-family: gala-triline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    top: auto;
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+.contactPad{
+    margin-right: 20px;
+}
+.marginNav{
+    margin-top: 100px;
+}
+.marginSpace{
+    margin-top: 25px;
+}
