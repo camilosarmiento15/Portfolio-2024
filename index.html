@@ -12,11 +12,13 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary areaNormal fixed-top">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand center marginLogo" id="logo" href="#">CS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-11">
               <li class="nav-item">
                 <a class="nav-link active areaSemiBold" aria-current="page" href="#">About</a>
               </li>
@@ -30,14 +32,12 @@
                 <a class="nav-link" href="https://acrobat.adobe.com/id/urn:aaid:sc:US:0155c399-927f-4570-8ebc-8d32882fd46b" target="_blank">Resume</a>
               </li>
             </ul>
+            <div class="navbar-nav me-auto mb-2 mb-lg-0 col-1">
+              <a href="https://www.linkedin.com/in/camilopsarmiento/" target="_blank"><img class="contactPad nav-item" src="img/LinkedIn.png" alt="linkedin" width="25px"></a>
+              <a href="mailto:camsarm11@gmail.com"><img class="contactPad nav-item" src="img/mail.png" alt="mail" width="25px"></a>
+            </div>
         </div>
-        <div class="container social">
-          <img class="contactPad" src="img/LinkedIn.png" alt="linkedin" width="20px">
-          <img class="contactPad" href="mailto:camsarm11@gmail.com" target="_blank"src="img/mail.png" alt="mail" width="20px">
         </div>
-        </div>
-        <a class="navbar-brand center fixed-top" id="logo" href="#">CS</a>
-        
       </nav>
       <section class="container marginNav">
         <div class="row align-items-center">
@@ -67,10 +67,10 @@
         </div>
         <div class="col-2"></div>
       </div>
-      <h1 class="text-center areaSemiBold">Work</h1>
-      <div class="container">
+      <h1 class="text-center areaSemiBold footerMargin">Work</h1>
+      <div class="container marginSpace">
         <div class="row justify-content-center"> 
-        <div class="card" style="width: 25rem;">
+        <div class="card noBorder col-sm-5 col-md-4">
         <img src="img/UPS UCIX.png" class="card-img-top" alt="UCIX">
         <div class="card-body">
           <h5 class="card-title">UCIX</h5>
@@ -79,17 +79,17 @@
         </div>
       </div>
       <div class="col-2"></div>
-      <div class="card" style="width: 25rem;">
-        <img src="img/cover rhythmiq.png" class="card-img-top" alt="RhythmiQ">
+      <div class="card noBorder col-sm-5 col-md-4">
+        <img src="img/UPS UCIX.png" class="card-img-top" alt="RhythmiQ">
         <div class="card-body">
-          <h5 class="card-title">RhythmiQ</h5>
-          <p class="card-text">Your next favorite song is one swipe away!</p>
+          <h5 class="card-title">WorldShip Interactive Description</h5>
+          <p class="card-text">Update your shipment description for accurate fees assessment</p>
           <a href="#" class="btn btn-primary">View</a>
         </div>
       </div>
     </div>  
     <div class="row justify-content-center"> 
-      <div class="card" style="width: 25rem;">
+      <div class="card noBorder col-sm-5 col-md-4">
       <img src="img/pitbulls.png" class="card-img-top" alt="pitbull">
       <div class="card-body">
         <h5 class="card-title">Friends to the Forlorn Website Redesign</h5>
@@ -98,28 +98,37 @@
       </div>
     </div>
     <div class="col-2"></div>
-    <div class="card" style="width: 25rem;">
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card noBorder col-sm-5 col-md-4">
+      <img src="img/cover rhythmiq.png" class="card-img-top" alt="RhythmiQ">
       <div class="card-body">
         <h5 class="card-title">RhythmiQ</h5>
         <p class="card-text">Your next favorite song is one swipe away!</p>
         <a href="#" class="btn btn-primary">View</a>
       </div>
     </div>
+    <div class="row justify-content-center"> 
+      <div class="card noBorder col-sm-5 col-md-4">
+      <img src="img/umami 2.png" class="card-img-top" alt="umami">
+      <div class="card-body">
+        <h5 class="card-title">Umami Recipe App</h5>
+        <p class="card-text">Prepare something delicious with what you already have in your pantry!</p>
+        <a href="#" class="btn btn-primary">View</a>
+      </div>
+    </div>
   </div>  
     </div>
-    <div class="container center">
+    <div class="container center footerMargin">
       <button type="button" class="btn btn-primary"> View Resume</button>
     </div>
-    <footer>
-      <div class="container center">
+    <footer class="footerBackground">
+      <div class="container px-4 center footerMargin">
         <div>
-        <img src="img/LinkedIn.png" alt="linkedin" width="20px">
-        <img src="img/mail.png" alt="mail" width="20px"> 
+          <a class="p-2" href="https://www.linkedin.com/in/camilopsarmiento/" target="_blank"><img src="img/LinkedIn.png" alt="linkedin" width="25px"></a>
+          <a class="p-2" href="mailto:camsarm11@gmail.com"><img src="img/mail.png" alt="mail" width="25px"></a>
       </div>
-      <p>© 2024</p>
+      <p class="marginSpace">© 2024</p>
     </div>
     </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

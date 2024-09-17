@@ -41,3 +41,18 @@
 .marginSpace{
     margin-top: 25px;
 }
+.marginLogo{
+    margin-top: -25px;
+    margin-bottom: -20px;
+}
+
+.noBorder{
+    border: none !important;
+}
+
+.footerMargin{
+    margin-top: 50px;
+}
+.footerBackground{
+    background-color: lightgray;
+}
