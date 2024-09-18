@@ -54,5 +54,7 @@
     margin-top: 50px;
 }
 .footerBackground{
-    background-color: lightgray;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
