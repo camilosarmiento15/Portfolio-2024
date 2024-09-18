@@ -58,3 +58,17 @@
     left: 0;
     right: 0;
 }
+.robotoBold{
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.projectTitle{
+    font-size: 5rem;
+}
+.robotoRegular{
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
