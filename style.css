@@ -1,3 +1,13 @@
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+footer{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
 .center{
     text-align: center;
 }
@@ -54,9 +64,9 @@
     margin-top: 50px;
 }
 .footerBackground{
-    position: absolute;
-    left: 0;
-    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
 }
 .robotoBold{
     font-family: "roboto", sans-serif;
@@ -65,10 +75,27 @@
 }
 
 .projectTitle{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .robotoRegular{
     font-family: "roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.headerMargins{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.midMargins{
+    margin-top: 50px;
+}
+
+.pink{
+    color: #ed52bb;
+}
+
+.prototypeButton{
+    margin-top: 25px;
 }
