@@ -4,9 +4,16 @@ ul{
 }
 
 footer{
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
+    padding-bottom: 10px;
+}
+
+button{
+    border-radius: 20px !important;
+    background-color: #3871AD !important;
+    border-color: #3871AD !important;
+    font-family: area-normal, sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
 }
 .center{
     text-align: center;
@@ -51,6 +58,10 @@ footer{
 .marginSpace{
     margin-top: 25px;
 }
+
+.paddingSpace{
+    padding-top: 25px;
+}
 .marginLogo{
     margin-top: -25px;
     margin-bottom: -20px;
@@ -62,11 +73,6 @@ footer{
 
 .footerMargin{
     margin-top: 50px;
-}
-.footerBackground{
-    margin-left: 0;
-    margin-right: 0;
-
 }
 .robotoBold{
     font-family: "roboto", sans-serif;
