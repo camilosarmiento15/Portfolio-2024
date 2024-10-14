@@ -7,7 +7,7 @@ footer{
     padding-bottom: 10px;
 }
 
-button{
+.buttonLink{
     border-radius: 20px !important;
     background-color: #3871AD !important;
     border-color: #3871AD !important;
@@ -19,7 +19,7 @@ button{
     text-align: center;
 }
 
-.areaNormal{
+body, .areaNormal{
     font-family: area-normal, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -104,4 +104,14 @@ button{
 
 .prototypeButton{
     margin-top: 25px;
+}
+
+.card-img-top{
+    border-radius: 25px;
+    box-shadow: 2px 2px .2em;
+    color: gray;
+}
+
+.blurb{
+    font-size: 26px;
 }
