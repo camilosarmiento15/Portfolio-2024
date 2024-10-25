@@ -137,6 +137,13 @@ body, .areaNormal{
  .stagger:nth-child(2){
     transition-delay: 100ms;
 }
+
+.imgCenter{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}    
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
@@ -149,3 +156,18 @@ body, .areaNormal{
     display: flex;
     justify-content: center;
 }}
+
+@media (max-width: 576px){
+
+    p{
+      font-size: 14px;  
+    }
+    .projectTitle{
+        font-size: 32px;
+    }
+    .blurb{
+        font-size: 18px;
+    }
+    h2, h4{
+        font-size: 18px;
+    }}
