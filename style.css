@@ -124,6 +124,12 @@ body, .areaNormal{
     
 }
 
+/* .hidden2{
+    opacity: 0;
+    filter: blur(20px);
+    transition: all 2s;
+} */
+
 .show{
     opacity: 1;
     filter: blur(0px);
