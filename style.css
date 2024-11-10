@@ -44,6 +44,7 @@ body, .areaNormal{
     font-style: normal;
     font-size: 55px;
     top: auto;
+    color: #4ba8fb;
 }
 .social{
     display: flex;
