@@ -82,6 +82,10 @@ body, .areaNormal{
 .footerMargin{
     margin-top: 50px;
 }
+
+.workMargin{
+    margin-top: 50px;
+}
 .robotoBold{
     font-family: "roboto", sans-serif;
     font-weight: 700;
@@ -163,6 +167,47 @@ body, .areaNormal{
     display: inline !important;
 }
 
+.intro{
+    font-size: 5rem;
+}
+.title{
+    font-size: 3rem
+}
+
+.summary{
+    font-size: 1.25rem;
+}
+
+.gap{
+    /* margin-bottom: 300px; */
+}
+.circle{
+    background-image: url(img/Half-Circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes sweep{
+    0%{ background: linear-gradient(
+        90deg, #fce041 0%, transparent 100%)}
+    25%{ background: linear-gradient(
+        90deg, #fce041 25%, transparent 75%)}
+    50%{ background: linear-gradient(
+         90deg, #fce041 50%, transparent 50%)}
+    75%{ background: linear-gradient(
+        90deg, #fce041 75%, transparent 25%)}
+    100%{ background: linear-gradient(
+         90deg, #fce041 100%, transparent 0%)}
+}
+
+.highlight{
+    animation: sweep 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 1.5, 1, 1.5);
+    animation-delay: 1s;
+}
+
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
@@ -174,8 +219,30 @@ body, .areaNormal{
 .social{
     display: flex;
     justify-content: center;
-}}
+}
+    .summary{
+        font-size: 1rem;
+    }
+    .intro{
+        font-size: 3.5rem;
+        margin-top: 0;
+    }
+    .title{
+        font-size: 2.5rem;
+    }}
 
+@media (max-width: 768px){
+
+            .summary{
+                font-size: .8rem;
+            }
+            .intro{
+                font-size: 1.8rem;
+                margin-top: 0;
+            }
+            .title{
+                font-size: 1.2rem;
+            }}
 @media (max-width: 576px){
 
     p{
@@ -195,4 +262,27 @@ body, .areaNormal{
     } 
     .resize{
         width: 50%;
-    }}
+    }
+    .summary{
+        font-size: .7rem;
+    }
+    .intro{
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+    .title{
+        font-size: .9rem;
+    }
+    .circle{
+        background: none;
+    }
+    .circle-mobile{
+        background-image: url(img/Half-Circle.svg);
+        background-size: cover;
+        /* background-repeat: no-repeat;
+        background-position: center;     */
+    }
+    .workMargin{
+        margin-top: 20px;
+    }
+}
