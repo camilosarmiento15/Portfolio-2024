@@ -191,21 +191,31 @@ body, .areaNormal{
 @keyframes sweep{
     0%{ background: linear-gradient(
         90deg, #fce041 0%, transparent 100%)}
-    25%{ background: linear-gradient(
+    /* 25%{ background: linear-gradient(
         90deg, #fce041 25%, transparent 75%)}
     50%{ background: linear-gradient(
          90deg, #fce041 50%, transparent 50%)}
     75%{ background: linear-gradient(
-        90deg, #fce041 75%, transparent 25%)}
+        90deg, #fce041 75%, transparent 25%)} */
     100%{ background: linear-gradient(
          90deg, #fce041 100%, transparent 0%)}
 }
 
 .highlight{
-    animation: sweep 1s;
+    animation: sweep 3s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 1.5, 1, 1.5);
-    animation-delay: 1s;
+}
+
+.delay1{
+    animation-delay: .25s;
+}
+
+.delay2{
+    animation-delay: .75s;
+}
+.delay3{
+    animation-delay: 1.25s;
 }
 
 @media(prefers-reduced-motion) {
