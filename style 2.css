@@ -218,6 +218,30 @@ body, .areaNormal{
     animation-delay: 1.25s;
 }
 
+.brown{
+    background-color: #301506;
+}
+
+.gold{
+    background-color: #FFB500;
+}
+
+.violet{
+    background-color: #180559;
+}
+
+.white{
+    color: #FFFF;
+}
+
+.beige{
+    background-color: #FCFAF1;
+}
+
+.tomato{
+    background-color: #a41303;
+}
+
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
