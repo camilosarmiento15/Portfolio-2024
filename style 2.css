@@ -51,7 +51,7 @@ body, .areaNormal{
     font-style: normal;
     font-size: 55px;
     top: auto;
-    color: #4ba8fb;
+    color: #2898FB;
 }
 .social{
     display: flex;
@@ -111,7 +111,7 @@ body, .areaNormal{
 }
 
 .pink{
-    color: #ed52bb;
+    color: #D9179B;
 }
 
 .prototypeButton{
@@ -182,7 +182,7 @@ body, .areaNormal{
     /* margin-bottom: 300px; */
 }
 .circle{
-    background-image: url(img/Half-Circle.svg);
+    background-image: url(img/Half-Circle\ 2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
